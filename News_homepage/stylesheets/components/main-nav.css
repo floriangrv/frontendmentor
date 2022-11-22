@@ -1,0 +1,15 @@
+.header-logo  {
+    width: 50px;
+
+    
+}
+.burger-menu {
+    height: 20px;
+    width: 50px;
+}
+.main-nav {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
