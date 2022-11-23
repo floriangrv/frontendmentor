@@ -1,9 +1,10 @@
 .interesting-links-container {
   margin-bottom: 46px;
+  display: flex;
 }
 
 .interesting-link {
-  display: flex;
+
 
   align-items: center;
   gap: 18px;
