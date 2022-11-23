@@ -36,6 +36,7 @@ h1 {
 
   .main-flex {
     display: flex;
+    margin-bottom: 52px;
     
   }
 
