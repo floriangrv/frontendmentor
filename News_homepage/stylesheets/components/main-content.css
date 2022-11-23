@@ -1,23 +1,25 @@
 h1 {
-    font-size: 40px;
-    font-weight: var(--fw-very-bold);
-    margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: var(--fw-very-bold);
+  margin-bottom: 24px;
 }
 
-img {
-    margin-bottom: 20px;
+.main-article-img{
+  margin-bottom: 20px;
 }
 
 .main-paragraph {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .primary-btn {
-    color: var(--clr-neutral-white);
-    background-color: var(--clr-primary-btn);
-    padding: 12px 24px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 14px;
+  color: var(--clr-neutral-white);
+  background-color: var(--clr-primary-btn);
+  padding: 12px 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-bottom: 42px;
+  font-weight: var(--fw-bold);
 }

@@ -22,15 +22,23 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    <header>
-      <nav class="main-nav">
-        <img class="header-logo" src="./assets/images/logo.svg" alt="logo" />
-        <img
-          class="burger-menu"
-          src="./assets/images/icon-menu.svg"
-          alt="burger menu"
-        />
-      </nav>
+    <header class="navbar">
+      <img src="./assets/images/logo.svg" alt="" class="logo">
+       
+          <ul class="nav-list ">
+            <li><a class="nav-item" href="#">Home</a></li>
+            <li><a class="nav-item" href="#">New</a></li>
+            <li><a class="nav-item" href="#">Popular</a></li>
+            <li><a class="nav-item" href="#">Trending</a></li>
+            <li><a class="nav-item" href="#">Categories</a></li>
+          </ul>
+     
+          <svg class="hamburger menu-active" width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+  
+          <svg class="close" width="40" height="31" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
+     
+ 
+    
     </header>
 
     <!-- 
@@ -42,7 +50,11 @@
 
     <main>
       <div class="main-article">
-        <img src="./assets/images/image-web-3-mobile.jpg" alt="" />
+        <img
+          class="main-article-img"
+          src="./assets/images/image-web-3-mobile.jpg"
+          alt=""
+        />
         <h1>The Bright Future of Web 3.0?</h1>
         <p class="main-paragraph">
           We dive into the next evolution of the web that claims to put the
@@ -72,22 +84,57 @@
           </p>
         </div>
       </div>
+      <div class="interesting-links-container">
+        <div class="interesting-link">
+          <div class="interesting-link-img-container">
+            <img
+              class="intresting-link-img"
+              src="./assets/images/image-retro-pcs.jpg"
+              alt="retro pc"
+            />
+          </div>
+          <div class="interesting-link-text">
+            <h2 class="interesting-link-number">01</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="interesting-link">
+          <div class="interesting-link-img-container">
+            <img
+              class="intresting-link-img"
+              src="./assets/images/image-top-laptops.jpg"
+              alt="retro pc"
+            />
+          </div>
+          <div class="interesting-link-text">
+            <h2 class="interesting-link-number">02</h2>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="interesting-link">
+          <div class="interesting-link-img-container">
+            <img
+              class="intresting-link-img"
+              src="./assets/images/image-gaming-growth.jpg"
+              alt="retro pc"
+            />
+          </div>
+          <div class="interesting-link-text">
+            <h2 class="interesting-link-number">03</h2>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities. .</p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!
 
   
 
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+ 
 
   01
   Reviving Retro PCs
@@ -105,5 +152,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="./script.js"></script> 
   </body>
 </html>
