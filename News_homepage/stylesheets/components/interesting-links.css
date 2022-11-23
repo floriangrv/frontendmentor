@@ -6,8 +6,6 @@
 
 .interesting-link {
   display: flex;
-
-
   align-items: center;
   gap: 18px;
   margin-bottom: 12px;
@@ -40,4 +38,10 @@
 
 .interesting-link-paragraph {
     color: var(--clr-grayish-dark-blue);
+}
+
+@media only screen and (max-width: 992px) {
+  .interesting-links-container {
+    display: initial
+  }
 }
