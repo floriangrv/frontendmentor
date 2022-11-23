@@ -1,42 +1,40 @@
 .interesting-links-container {
-margin-bottom: 46px;
-
-
+  margin-bottom: 46px;
 }
 
 .interesting-link {
-display: flex;
+  display: flex;
 
-align-items: center;
-gap: 18px;
-margin-bottom: 12px;
-
-
-
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 12px;
 }
 
 .intresting-link-img {
-   
-    min-width: 100%;
-    width:  120px;
-    
+  min-width: 100%;
+  width: 120px;
 }
 
 .interesting-link-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  color: var(--clr-very-dark-blue);
 }
 
 .interesting-link-number {
-    color: var(--clr-grayish-blue);
-    font-size: 32px;
-    font-weight: var(--fw-bold);
+  color: var(--clr-grayish-blue);
+  font-size: 32px;
+  font-weight: var(--fw-bold);
 }
 
 .interesting-link-img-container {
-    width: 120px;
+  width: 120px;
 }
 
 .interesting-link-text > h3 {
-    font-size: 18px;
+  font-size: 18px;
+}
+
+.interesting-link-paragraph {
+    color: var(--clr-grayish-dark-blue);
 }

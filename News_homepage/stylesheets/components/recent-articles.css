@@ -12,6 +12,7 @@
   }
   .recent-articles-container p {
     margin-bottom: 24px;
+    color: var(--clr-grayish-blue);
   }
   .recent-article:not(:last-child) {
     border-bottom: 1px solid hsla(36, 100%, 99%, 0.285);

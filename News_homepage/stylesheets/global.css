@@ -20,10 +20,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
-}
+
 
 p {
-    color: var(--clr-grayish-dark-blue);
+    color: var(--clr-grayish-blue);
     font-size: 15px;
     line-height: 115%;
 }

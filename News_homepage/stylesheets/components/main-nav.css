@@ -6,15 +6,8 @@
 .navbar {
   display: flex;
   align-items: center;
-  margin-bottom: 36px;
+  margin-bottom: 52px;
 }
-
-
-
-
-
-
-
 
 
 .hamburger, .close {
@@ -49,7 +42,7 @@
 
       .nav-list > li  {
         margin-bottom: 32px;
-        font-size: 18px;
+        font-size: 24px;
         padding: 10px;
     }
   }
@@ -68,7 +61,17 @@
       width: 1440px;
     }
 
-    .nav-list > li:not(:last-child) {
-        margin-right: 26px;
+    .nav-list li {
+        font-size: 20px;
+        color:  var(--clr-grayish-dark-blue);
     }
+
+    .nav-list > li:not(:last-child) {
+        margin-right: 36px;
+       
+    }
+
+    
+
+    
 }
